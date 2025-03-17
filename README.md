@@ -9,3 +9,6 @@ This program allows DFA to check whether a given binary number is divisible by 5
 
 # Exp3: Immediate Left Recursion
 This program removes immediate left recursion if present in the production rules entered by the user
+
+# Exp4: Left factoring
+This program removes left factoring if present in the production rules entered by the user. This code doesn't work if the grammar is ambiguous and multiple levels of left factoring.
