@@ -14,4 +14,10 @@ This program removes immediate left recursion if present in the production rules
 This program removes left factoring if present in the production rules entered by the user. This code doesn't work if the grammar is ambiguous and multiple levels of left factoring.
 
 # Exp5: FIRST and FOLLOW
-This program finds first and follow of the Context-free grammar entered by the user 
+This program finds first and follow of the Context-free grammar entered by the user.
+
+# Exp6: Recursive Descent Parser
+This program parses the string given by the user using recursive descent parser for the following grammar:
+E->E+T|T
+T->T*F|F
+F->id|(E)
