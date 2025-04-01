@@ -21,3 +21,9 @@ This program parses the string given by the user using recursive descent parser 
 E->E+T|T
 T->T*F|F
 F->id|(E)
+
+# Exp7: Predictive Parser
+This program parses the string given by the user using predictive parser for the following grammar:
+E->E+T|T
+T->T*F|F
+F->id|(E)
