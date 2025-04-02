@@ -24,18 +24,18 @@ F->id|(E)
 
 # Exp7: Predictive Parser
 This program parses the string given by the user using predictive parser for the following grammar:
-E->E+T|T
-T->T*F|F
+E->E+T|T,
+T->T*F|F,
 F->id|(E)
 
 # Exp8: LR(0) Parser
 This program parses the string given by the user using LR(0) parser for the following grammar:
-E->E+T|T
-T->T*F|F
+E->E+T|T,
+T->T*F|F,
 F->id|(E)
 
 # Exp9: SLR(1) Parser
 This program parses the string given by the user using SLR(1) parser for the following grammar:
-E->E+T|T
-T->T*F|F
+E->E+T|T,
+T->T*F|F, 
 F->id|(E)
