@@ -27,3 +27,9 @@ This program parses the string given by the user using predictive parser for the
 E->E+T|T
 T->T*F|F
 F->id|(E)
+
+# Exp8: LR(0) Parser
+This program parses the string given by the user using LR(0) parser for the following grammar:
+E->E+T|T
+T->T*F|F
+F->id|(E)
